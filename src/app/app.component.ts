@@ -124,7 +124,7 @@ export class AppComponent {
 	}
 
 	Adddata(){
-		sessionStorage.setItem("userid","adminuser");
+		localStorage.setItem("userid","adminuser");
 	}
 
 }
